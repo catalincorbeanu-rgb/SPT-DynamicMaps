@@ -20,7 +20,7 @@ namespace DynamicMaps
     [BepInDependency("com.SamSWAT.HeliCrash.ArysReloaded", BepInDependency.DependencyFlags.SoftDependency)]
     public class Plugin : BaseUnityPlugin
     {
-        public const int TarkovVersion = 40087;
+        public const int TarkovVersion = 39390;
         public static Plugin Instance;
         public static ManualLogSource Log => Instance.Logger;
         public static string Path = System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
